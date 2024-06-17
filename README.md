@@ -1,7 +1,7 @@
 # Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision
-This repository will host Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision, to be presented at ACL-2024. The dataset will appear here shortly.
+This repository will host Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision, to be presented at ACL-2024 main conference. The dataset and code will appear here shortly.
 
-Please find the preprint [here](https://arxiv.org/abs/2406.00197), and star the repository to stay up to date with the data release.
+Please find the preprint [here](https://arxiv.org/abs/2406.00197), and star the repository to stay up to date with the data and code release.
 
 In case of questions please contact [Qian Ruan](mailto:ruan@ukp.tu-darmstadt.de).
 
