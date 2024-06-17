@@ -10,4 +10,4 @@ Collaborative review and revision of textual documents is the core of knowledge 
 
 Please find the preprint [here](https://arxiv.org/abs/2406.00197), and star the repository to stay up to date with the data release.
 
-In case of questions please contact [Qian Ruan](ruan@ukp.tu-darmstadt.de).
+In case of questions please contact [Qian Ruan](mailto:ruan@ukp.tu-darmstadt.de).
