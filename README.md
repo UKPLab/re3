@@ -77,7 +77,7 @@ pip install git+https://github.com/UKPLab/re3
 ```    
 
 ### NLP Tasks
-Check the following scripts for the complete pipeline code: *inference_EIC_M.py*, *inference_EIC_AD.py*, *inference_RA*.py, *inference_RRE.py*, and *inference_DES*.py. These scripts handle tasks including edit intent classification (EIC, differentiating between modification pairs and additions + deletions), revision alignment (RA), review request extraction (RRE), and document edit summarization (DES). The arguments within <settings> and </settings> can be customized. Also refer to the paper for more details
+Check the following scripts for the complete pipeline code: *inference_EIC_M.py*, *inference_EIC_AD.py*, *inference_RA*.py, *inference_RRE.py*, and *inference_DES*.py. These scripts handle tasks including edit intent classification (EIC, differentiating between modification pairs and additions + deletions), revision alignment (RA), review request extraction (RRE), and document edit summarization (DES). The arguments within < settings > and < /settings > can be customized. Also refer to the paper for more details
 
 For example, proceed with data loading for the task 'edit_intent_classification_M':
 
