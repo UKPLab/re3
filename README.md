@@ -13,9 +13,9 @@ Collaborative review and revision of textual documents is the core of knowledge 
 *Figure 1. Re3 offers a holistic framework for studying the relationships between reviews (a), revisions (b-c) and responses (d) in text-based collaboration. It is instantiated in the Re3-Sci dataset that covers all edits in 314 full-length scientific publications manually labeled with edit action and intent (e) on different granularity levels, along with reviews that trigger edits and manually curated responses that summarize all edits made including self-initiated ones (f).*
 
 ## Quickstart
-1. Install the package from github.
+1. Download the project from github.
 ```bash
-pip install git+https://github.com/UKPLab/re3
+git clone https://github.com/UKPLab/re3
 ```
 
 2. Download the newest version of the Re3-Sci dataset here: https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4300
