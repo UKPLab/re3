@@ -1,5 +1,5 @@
 # Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision
-This is the official code repository for the paper "Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision", presented at ACL 2024 main conference.
+This is the official code repository for the paper "Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision", presented at ACL 2024 main conference. It includes the link to the data release and the code for running the NLP tasks proposed in the paper.
 
 Please find the paper [here](https://arxiv.org/abs/2406.00197), and star the repository to stay updated with the latest information.
 
@@ -81,7 +81,7 @@ Check the following scripts for the complete pipeline code: *inference_EIC_M.py*
 
 For example, proceed with data loading for the task 'edit_intent_classification_M':
 
-2. Generate Prompts
+1. Generate Prompts
 
 ```python
     # generate prompts
@@ -112,7 +112,7 @@ For example, proceed with data loading for the task 'edit_intent_classification_
     print(f'prompt_type: {prompt_type}')
     print(f'test_ds: {test_ds}')
 ```
-3. Load Model
+2. Load Model
 
 ```python
     # load model from path
@@ -128,7 +128,7 @@ For example, proceed with data loading for the task 'edit_intent_classification_
     print(f'model: {model}')
 ```
 
-4. Create Experiment Directory
+3. Create Experiment Directory
 
 ```python
     # create experiment directory in the 'results' folder, with the settings above
@@ -140,7 +140,7 @@ For example, proceed with data loading for the task 'edit_intent_classification_
     print('========== 4. Experiment directory created: ==========')
     print(f'exp_dir: {exp_dir}')
 ```
-5. Generate Outputs
+4. Generate Outputs
 
 ```python
     # generate outputs, saved in exp_dir/outputs.csv
@@ -156,7 +156,7 @@ For example, proceed with data loading for the task 'edit_intent_classification_
     print('========== 5. Outputs generated: ==========')
     print(f'exp_dir: {exp_dir}')
 ```
-6. Evaluate
+5. Evaluate
 
 ```python
     # evaluate outputs, evaluation results saved in exp_dir/eval.json
@@ -181,8 +181,6 @@ Please use the following citation:
       url={https://arxiv.org/abs/2406.00197},
 }
 ```
-
-Contact Persons: Qian Ruan, Ilia Kuznetsov
 
 <https://intertext.ukp-lab.de/>
 
