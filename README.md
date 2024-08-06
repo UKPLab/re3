@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ```    
 
 ### NLP Tasks
-Check the scripts in the "pipelines" directory for the complete workflows of each task: edit intent classification (EIC), which differentiates between modification pairs (M) and additions/deletions (AD); revision alignment (RA); review request extraction (RRE); and document edit summarization (DES). You can customize the arguments within \<settings\> and \</settings\>. Refer to the paper for more details.
+Check the 'inference_\<X\>.py' scripts for the complete workflows of each task: edit intent classification (EIC), which differentiates between modification pairs (M) and additions/deletions (AD); revision alignment (RA); review request extraction (RRE); and document edit summarization (DES). You can customize the arguments within \<settings\> and \</settings\>. Refer to the paper for more details.
 
 For example, proceed with data loading for the task 'edit_intent_classification_M':
 
