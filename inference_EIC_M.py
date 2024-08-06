@@ -7,7 +7,7 @@ def main():
     # <settings>
     dataset_name = 'Re3-Sci_v1'
     approach_name = 'instruction_tuning'
-    task_name = 'revision_alignment' # task_name in ['edit_intent_classification_M','edit_intent_classification_AD', 'revision_alignment','review_request_extraction']
+    task_name = 'edit_intent_classification_M' # task_name in ['edit_intent_classification_M','edit_intent_classification_AD', 'revision_alignment','review_request_extraction']
     train_type = 'train'  # name of the training data
     test_type = 'test_small'  # name of the test data
     # </settings>
