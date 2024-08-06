@@ -22,7 +22,13 @@ git clone https://github.com/UKPLab/re3
 
 3. Extract the dataset into the 'data' directory.
 
-4. Load e.g. the data for edit intent classification (modification pairs only)
+4. Setup environment
+```bash
+python -m venv .re3
+source ./.re3/bin/activate
+pip install -r requirements.txt
+```   
+5. Load e.g. the data for edit intent classification (modification pairs only)
 ```python
   # load the data by task name
   # basic settings
@@ -77,7 +83,7 @@ git clone https://github.com/UKPLab/re3
 ```    
 
 ### NLP Tasks
-Check the scripts in the "pipelines" directory for the complete workflows of the tasks: edit intent classification (EIC), which differentiates between modification pairs (M) and additions/deletions (AD); revision alignment (RA); review request extraction (RRE); and document edit summarization (DES). You can customize the arguments within '<settings>' and '</settings>'. Refer to the paper for more details.
+Check the scripts in the "pipelines" directory for the complete workflows of each task: edit intent classification (EIC), which differentiates between modification pairs (M) and additions/deletions (AD); revision alignment (RA); review request extraction (RRE); and document edit summarization (DES). You can customize the arguments within '<settings>' and '</settings>'. Refer to the paper for more details.
 
 For example, proceed with data loading for the task 'edit_intent_classification_M':
 
