@@ -178,13 +178,21 @@ For example, proceed with data loading for the task 'edit_intent_classification_
 
 Please use the following citation:
 
+Qian Ruan, Ilia Kuznetsov, and Iryna Gurevych. 2024. Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 4635–4655, Bangkok, Thailand. Association for Computational Linguistics.
+
 ```
-@article{ruan2024re3,
-      title={Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision},
-      author={Qian Ruan and Ilia Kuznetsov and Iryna Gurevych},
-      year={2024},
-      journal={arXiv preprint arXiv:2406.00197},
-      url={https://arxiv.org/abs/2406.00197},
+@inproceedings{ruan2024re3,
+    title = "Re3: A Holistic Framework and Dataset for Modeling Collaborative Document Revision",
+    author = "Ruan, Qian  and
+      Kuznetsov, Ilia  and
+      Gurevych, Iryna",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.255",
+    pages = "4635--4655",
 }
 ```
 
